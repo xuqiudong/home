@@ -1,21 +1,12 @@
-# index
-home page of xuqiudong
+## 项目介绍
 
-## first
+使用`Github`的`pages`作为静态页面,作为自己的导航，包括自己的代码和博客以及常用网站。
 
-#### 1.1 who we are?
 
-这是我父亲留下的散文诗
 
-## second
+#### 感谢
 
-#### 2.1 满船清梦压星河
+[咖啡吧导航github](https://github.com/ops-coffee/nav)
 
-西风吹老洞庭波
-
-一夜湘君白发多
-
-醉后不知天在水
-
-满船清梦压星河
+ [咖啡吧导航](https://nav.ops-coffee.cn) 
 
