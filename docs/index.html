@@ -1,143 +1,164 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta name="applicable-device" content="pc,mobile">
-  <meta name="keywords" content="临窗旋墨的博客,许秋冬的博客,java技术,spring相关技术栈" />
-  <meta name="description" content="临窗旋墨的博客,专注java技术,分享springboot,springcloud,mybatis,mysql,redis,maven,git,mq等常用技术或者框架的使用;源码分析,javaweb开发问题解决等" />
-  <link rel="stylesheet" href="./css/ops-coffee.min.css" type="text/css" />
-  <link rel="shortcut icon" href="images/favicon.ico" />
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<meta name="applicable-device" content="pc,mobile">
+		<meta name="keywords" content="临窗旋墨的博客,许秋冬的博客,java技术,spring相关技术栈" />
+		<meta name="description" content="临窗旋墨的博客,专注java技术,分享springboot,springcloud,mybatis,mysql,redis,maven,git,mq等常用技术或者框架的使用;源码分析,javaweb开发问题解决等" />
+		<link rel="stylesheet" href="./css/ops-coffee.min.css" type="text/css" />
+		<link rel="shortcut icon" href="lcxm.ico" type="image/ico">
 
-  <!-- Begin SEO tag -->
-  <title>临窗旋墨</title>
-  <meta property="og:locale" content="zh_CN" />
-  <meta property="og:site_name" content="临窗旋墨的导航" />
-  <meta property="og:url" content="https://www.xuqiudong.cn/" />
-  <meta property="og:title" content="临窗旋墨" />
-  <meta property="og:description" content="临窗旋墨的博客,专注java技术,分享springboot,springcloud,mybatis,mysql,redis,maven,git,mq等常用技术或者框架的使用;源码分析,javaweb开发问题解决等" />
-  <link rel="canonical" href="https://www.xuqiudong.cn/" />
-  <!-- End SEO tag -->
+		<!-- Begin SEO tag -->
+		<title>临窗旋墨</title>
+		<meta property="og:locale" content="zh_CN" />
+		<meta property="og:site_name" content="临窗旋墨的导航" />
+		<meta property="og:url" content="https://www.xuqiudong.cn/" />
+		<meta property="og:title" content="临窗旋墨" />
+		<meta property="og:description" content="临窗旋墨的博客,专注java技术,分享springboot,springcloud,mybatis,mysql,redis,maven,git,mq等常用技术或者框架的使用;源码分析,javaweb开发问题解决等" />
+		<link rel="canonical" href="https://www.xuqiudong.cn/" />
+		<!-- End SEO tag -->
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158772988-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158772988-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-158772988-1');
-  </script>
-</head>
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
 
-<body data-rsssl=1>
-  <div class="header">
-    <div class="container">
-      <a class="site" href="/">临窗旋墨的小窝和导航</a>
-      <nav class="header-menu">
-        <ul>
-          <li class="current-menu-item"><a href="/">首页</a></li>
-          <li class=""><a href="./common.html">常用</a></li>
-          <li class=""><a href="./develop.html">开发</a></li>
-          <li class=""><a href="./tools.html">工具</a></li>
-          <li class=""><a href="https://www.xuqiudong.cn" target="_blank">博客</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-  <!-- header -->
+			gtag('config', 'UA-158772988-1');
+		</script>
+	</head>
 
-  <div id="content-wrapper">
-    <div class="container">
+	<body data-rsssl=1>
+		<div class="header">
+			<div class="container">
+				<a class="site" href="/">临窗旋墨的小窝和导航</a>
+				<nav class="header-menu">
+					<ul>
+						<li class="current-menu-item"><a href="/">首页</a></li>
+						<li class=""><a href="./common.html">常用</a></li>
+						<li class=""><a href="./develop.html">开发</a></li>
+						<li class=""><a href="./tools.html">工具</a></li>
+						<li class=""><a href="https://www.xuqiudong.cn" target="_blank">博客</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- header -->
 
-      <div class="nav-cell clearfix">
-        <ul class="nav-list">
-			<!-- 我的gitee  https://gitee.com/lcxm/ -->
-			<li>
-			  <a class="nav-item clearfix" href="https://gitee.com/lcxm/" target="_blank">
-			    <div class="nav-img"
-			      style="margin-bottom:40px;background-image: url(./images/logo/gitee.png);">
-			    </div>
-			    <div class="nav-name">我的码云</div>
-			    <p>存放了部分个人的项目代码</p>
-			  </a>
-			</li>
-			
-         
-		  
-		  
-		  <li>
-		    <a class="nav-item clearfix" href="https://www.xuqiudong.cn/" target="_blank">
-		      <div class="nav-img"
-		        style="margin-bottom:40px;background-image: url(./images/logo/qiudong.jpg);">
-		      </div>
-		      <div class="nav-name">我的博客</div>
-		      <p>记录些技术文章,解决过程等</p>
-		    </a>
-		  </li>
-		  
-		  <li>
-		    <a class="nav-item clearfix" href="https://xuqiudong.github.io/book/" target="_blank">
-		      <div class="nav-img"
-		        style="margin-bottom:40px;background-image: url(./images/logo/github.png);">
-		      </div>
-		      <div class="nav-name">我的文档预留地</div>
-		      <p>文档预留地:markdown记录(整理中)</p>
-		    </a>
-		  </li>
-		  
-		  
+		<div id="content-wrapper">
+			<div class="container">
 
-          <li>
-            <a class="nav-item clearfix" href="https://www.zhihu.com/people/xuduochoua" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(./images/logo/zhih.png);">
-              </div>
-              <div class="nav-name">我的知乎</div>
-              <p>知名问答社区</p>
-            </a>
-          </li>
-          <li>
-            <a class="nav-item clearfix" href="https://space.bilibili.com/368029063" target="_blank">
-              <div class="nav-img"
-                style="margin-bottom:40px;background-image: url(./images/bili.png);">
-              </div>
-              <div class="nav-name">我的哔哩</div>
-              <p>真的是学习的好网站</p>
-            </a>
-          </li>
-		  
-		  <li>
-		    <a class="nav-item clearfix" href="https://github.com/xuqiudong" target="_blank">
-		      <div class="nav-img"
-		        style="margin-bottom:40px;background-image: url(./images/logo/github.png);">
-		      </div>
-		      <div class="nav-name">我的Github</div>
-		      <p>不太稳定,暂只用pages功能</p>
-		    </a>
-		  </li>
-		  
-        </ul>
-      </div>
-    </div>
-  </div>
+				<div class="nav-cell clearfix">
+					<h2> 📖 我的代码或博文
+						<!-- <a class="more" href="">更多</a> -->
+					</h2>
+					<ul class="nav-list">
+						<!-- 我的gitee  https://gitee.com/lcxm/ -->
+						<li>
+							<a class="nav-item clearfix" href="https://gitee.com/lcxm/" target="_blank">
+								<div class="nav-img" style="margin-bottom:40px;background-image: url(./images/logo/gitee.png);">
+								</div>
+								<div class="nav-name">我的码云</div>
+								<p>存放了部分个人的项目代码</p>
+							</a>
+						</li>
 
-  <!-- footer -->
-  <footer class="footer">
-    <div class="container clearfix">
-      <div class="copy"> © 2021 <a href="https://ops-coffee.cn" target="_blank">来自coffee导航</a></div>
+						<li>
+							<a class="nav-item clearfix" href="https://www.xuqiudong.cn/" target="_blank">
+								<div class="nav-img" style="margin-bottom:40px;background-image: url(./images/logo/qiudong.jpg);">
+								</div>
+								<div class="nav-name">我的博客</div>
+								<p>记录些技术文章,解决过程等</p>
+							</a>
+						</li>
 
-      <!-- <div class="link">
+						<li>
+							<a class="nav-item clearfix" href="https://xuqiudong.github.io/book/" target="_blank">
+								<div class="nav-img" style="margin-bottom:40px;background-image: url(./images/logo/github.png);">
+								</div>
+								<div class="nav-name">我的文档预留地</div>
+								<p>文档预留地:markdown记录(整理中)</p>
+							</a>
+						</li>
+
+						<li>
+							<a class="nav-item clearfix" href="https://github.com/xuqiudong" target="_blank">
+								<div class="nav-img" style="margin-bottom:40px;background-image: url(./images/logo/github.png);">
+								</div>
+								<div class="nav-name">我的Github</div>
+								<p>不太稳定,暂只用pages功能</p>
+							</a>
+						</li>
+					</ul>
+
+
+				</div>
+				<!-- -----------------------------  -->
+				<div class="nav-cell clearfix">
+					<h2> ♐ 我的社区
+						<!-- <a class="more" href="">更多</a> -->
+					</h2>
+					<ul class="nav-list">
+						<li>
+							<a class="nav-item clearfix" href="https://www.zhihu.com/people/xuduochoua" target="_blank">
+								<div class="nav-img" style="margin-bottom:40px;background-image: url(./images/logo/zhih.png);">
+								</div>
+								<div class="nav-name">我的知乎</div>
+								<p>知名问答社区</p>
+							</a>
+						</li>
+						<li>
+							<a class="nav-item clearfix" href="https://space.bilibili.com/368029063" target="_blank">
+								<div class="nav-img" style="margin-bottom:40px;background-image: url(./images/bili.png);">
+								</div>
+								<div class="nav-name">我的哔哩</div>
+								<p>真的是学习的好网站</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- -----------------------------  -->
+				
+				<div class="nav-cell clearfix">
+					<h2> 🎮 我的游戏
+						<!-- <a class="more" href="">更多</a> -->
+					</h2>
+					<ul class="nav-list">
+						<li>
+							<a class="nav-item clearfix" href="https://xuqiudong.github.io/book/#/game/learningsf" target="_blank">
+								<div class="nav-img" style="margin-bottom:40px;background-image: url(./images/logo/shakes-and-fidget.png);">
+								</div>
+								<div class="nav-name">shakes and fidget</div>
+								<p>搬运了一些攻略</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="container clearfix">
+				<div class="copy"> © 2021 <a href="https://ops-coffee.cn" target="_blank">来自coffee导航</a></div>
+
+				<!-- <div class="link">
         <a href="/" target="_blank">关于本站</a>
         <a href="/" target="_blank">回到首页</a>
       </div> -->
-    </div>
-  </footer>
+			</div>
+		</footer>
 
-  <script src="./js/nav.ops-coffee.min.js"></script>
-</body>
+		<script src="./js/nav.ops-coffee.min.js"></script>
+	</body>
 
 </html>
